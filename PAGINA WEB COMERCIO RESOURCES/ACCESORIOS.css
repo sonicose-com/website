@@ -1,0 +1,49 @@
+/*IMPORTED GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Piedra&family=Sofia&display=swap');
+
+:root{
+	--primary-color:black;
+	--purple: #994BD6;
+	--border: #000000;
+	--text-color: #E1D328;
+	--piedra:"Piedra", sans-serif;
+	--gugi:"Gugi";
+	--sofia:"Sofia";
+}
+
+
+.primary-color{
+	color: var(--primary-color);
+}
+
+.bg-primary-color{
+	background-color: var(--primary-color) !important;
+}
+
+.text-color{
+	color: var(--text-color);
+}
+
+.font-piedra{
+	font-family: var(--piedra);
+}
+
+.light-pink{
+	color: var(--purple);
+}
+
+/*Header*/
+
+header{
+	background-color: var(--purple);
+	font-family: var(--piedra);
+}
+
+header .site-title{
+	font-family: var(--piedra);
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item{
+	font-size: 1.5rem;
+}
